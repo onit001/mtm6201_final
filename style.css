@@ -1,0 +1,66 @@
+:root {
+    --bs-primary-color:  #aed4ff;
+    --bs-secondary-color: #E2E2E2;
+    --bs-tertiary-color: #000000;
+}
+
+body {
+    background-color: var(--bs-primary-color);
+}
+
+.banner-heading {
+    text-shadow: 0 0 15px black;
+}
+
+@media screen and (max-width: 700px) {
+    .display-1 {
+        font-size: 1.125rem;
+    }
+}
+
+.logo {
+    max-width: 100px; /* To adjust the size as i needed */
+    height: auto; /* Maintains aspect ratio */
+  }
+
+  .maps {
+    width: 100%;
+  }
+
+  .bg-gray {
+    background-color: var(--bs-secondary-color);
+    color: #000000;
+  }
+
+  .card {
+    max-height: 250px;
+    background-color: var(--bs-primary-color);
+    border: none;
+}
+
+  .align {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  /* .cat {
+    max-height: 250px;
+  }
+
+  .cat img {
+    object-fit: cover;
+    height: 100%;
+  } */
+
+  .nav {
+    color: #000000;
+  }
+
+  .navbar-nav .nav-link {
+    color: #000000;
+  }
+
+
+  .end {
+    color: black;
+  }
